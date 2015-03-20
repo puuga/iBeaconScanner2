@@ -106,6 +106,7 @@ public class MainActivity extends ActionBarActivity implements BeaconConsumer {
                     logToDisplay("----------------");
                     Log.i(TAG, "The beacon: " + beacon.toString());
                     Log.i(TAG, "name: " + beacon.getBluetoothName());
+                    Log.i(TAG, "address: " + beacon.getBluetoothAddress());
                 }
             }
         }
